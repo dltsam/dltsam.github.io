@@ -1,25 +1,11 @@
-title: 纸边集
-description: 把日常里值得记住的事，慢慢写下来。
+title: 乐天的站点
+description: 个人网站与项目入口。
 url: https://dltsam.github.io
 baseurl: ""
 lang: zh-CN
 timezone: Asia/Shanghai
-permalink: /journal/:year/:month/:day/:title/
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
+  - DESIGN.md
+  - Gemfile
   - vendor
